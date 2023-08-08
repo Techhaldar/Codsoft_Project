@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/fd19f6e25b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- <header> -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1 class="name">RATIN HALDAR</h1>
+
+          <!-- <ul class="name">
+            <li>RATIN HALDAR</li>
+          </ul> -->
+          <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Blog</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          Hi, My name is <span class="text-purple">Ratin</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+        </div>
+
+        <div class="image">
+          <img src="user1.png" alt="">
+      </div>
+
+      </div>
+    </div>
+
+    <!-- -----------About----------- -- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="user1.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am Ratin Haldar and I am 21 year old computer science graduated
+              (BCA) student. I am looking to secure a challenging position where
+              I can effectively contribute my skills as software professional
+              for growth of organization and myself.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-links" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li>
+                  <span>Web Development</span><br />HTML | CSS | JavaScript
+                </li>
+                <li><span>Programming language</span><br />C++ | Python</li>
+                <li>
+                  <span>Content Creating</span><br />Video Editing | Article
+                  Writing
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li><span>Digital Bhem Internship</span><br />Web Developer</li>
+                <li><span>CodSoft Internship</span><br />Web Developer</li>
+                <li>
+                  <span>Founder of Techhaldar</span><br />Video Editing |
+                  Article Writing
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li><span>BCA</span><br />Pal College Haldwani</li>
+                <li>
+                  <span>Intermediate</span><br />RPIC KHATIMA [PCM]<br />Grade:
+                  83%
+                </li>
+                <li>
+                  <span>High School</span><br />RPIC KHATIMA <br />Grade: 86%
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------blog---------------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Blog</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Coding Concept</h2>
+            <p>
+              "Decoding the Art of Programming: Unraveling Complex Algorithms
+              and Crafting Elegant Solutions in the World of Coding."
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-internet-explorer"></i>
+            <h2>Internet Info</h2>
+            <p>
+              "Unveiling the Unseen Wonders of the Web: A Journey into the
+              Hidden Corners of the Internet."
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-desktop"></i>
+            <h2>Computer Tutorials</h2>
+            <p>
+              "Exploring the Digital Frontier: Navigating the Ever-Changing
+              Landscape of Technology and Unveiling the Wonders of the Computer
+              World."
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------Project------------ -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="work-4.png" />
+            <div class="layer">
+              <h3>Landing Page</h3>
+              <p>
+                "Elevate Your First Impression: Captivate and Convert with Our
+                Engaging Landing Page Designs."
+              </p>
+              <a
+                href="https://github.com/Techhaldar/Codsoft_Project/tree/main/Landing%20page"
+                target="_blank"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="work-5.png" />
+            <div class="layer">
+              <h3>Calculator</h3>
+              <p>
+                "Empowering Precision and Efficiency: Harness the Power of our
+                Advanced Calculator for Swift and Accurate Mathematical
+                Solutions."
+              </p>
+              <a
+                href="https://github.com/Techhaldar/Codsoft_Project/tree/main/Calculator"
+                target="_blank"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="work-6.png" />
+            <div class="layer">
+              <h3>Amazon Clone</h3>
+              <p>
+                "Bringing the Amazon Experience Closer: Discover a Feature-Rich
+                Amazon Clone that Delivers Seamless Shopping and Endless
+                Possibilities."
+              </p>
+              <a
+                href="https://github.com/Techhaldar/Projects/tree/master/Amazon%20Clone"
+                target="_blank"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- ------------contact------------ -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i> ratinhaldar123@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot"></i> Haldwani ,India - 263139</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/techhaldar/" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a
+                href="https://twitter.com/i/flow/login?redirect_after_login=%2Ftechhaldar"
+                target="_blank"
+                ><i class="fab fa-twitter-square"></i
+              ></a>
+              <a href="https://www.instagram.com/techhaldar/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/ratin-haldar/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/Techhaldar" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <a href="CV Ratin Haldar.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+
+          <div class="contact-right">
+            <h2>Get In Touch With Me</h2>
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          © Copyright 2023 Built by
+          <span class="text-purple">Ratin Haldar</span>
+        </p>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Youtuber", "Blogger"],
+        typeSpeed: 50,
+      });
+    </script>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-links");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbz9ntEnNUe1MLyN03efD3qqOGZ74sgNclLzIWPEVLOlokiAKPcgnOt-eD1_b_--kIe6/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent Successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
